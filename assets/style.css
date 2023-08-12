@@ -1,0 +1,25 @@
+:root {
+    /* used extension on figma to find colors*/
+    --dark-green:#2e3b3e;
+    --gray:#50666b;
+    --light-pink: #fd6378;
+    --dark-pink:#fd6378;
+    --white:#fafafa;
+/* --body-bg: #151515;
+--contact-bg: */
+}
+
+html {
+    box-sizing: border-box;
+    /* padding doesnt add to width or height of elements*/
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}

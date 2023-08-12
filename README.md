@@ -8,6 +8,8 @@ Build a portfolio that showcases my skills and talents:
 
 * Application's links all function correctly to my GitHub profile, Linkedin page, and Resume. 
 
+* Portoflio has a responsive layout with sections and deployed applications. 
+
 ## User Story
 
 ```
@@ -46,4 +48,8 @@ Applicaiton loads with no errors.
 Repositiory contains a quality README file with description, screenshot, and link to deployed application.
 
 ## Source
+* https://www.digitalocean.com/community/tutorials/css-root-pseudo-class
+* https://fonts.google.com/specimen/Montserrat?preview.text=Whereas%20disregard%20and%20contempt%20for%20human%20rights%20have%20resulted&preview.text_type=custom&query=montserrat
+* https://bestfolios.medium.com/10-great-fonts-for-portfolio-design-2debfe2f1bb9
+* https://www.figma.com/community/plugin/740832935938649295/Color-Palettes
 
