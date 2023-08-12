@@ -52,4 +52,5 @@ Repositiory contains a quality README file with description, screenshot, and lin
 * https://fonts.google.com/specimen/Montserrat?preview.text=Whereas%20disregard%20and%20contempt%20for%20human%20rights%20have%20resulted&preview.text_type=custom&query=montserrat
 * https://bestfolios.medium.com/10-great-fonts-for-portfolio-design-2debfe2f1bb9
 * https://www.figma.com/community/plugin/740832935938649295/Color-Palettes
+* https://www.w3schools.com/css/css_navbar.asp
 

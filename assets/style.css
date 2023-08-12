@@ -2,24 +2,93 @@
     /* used extension on figma to find colors*/
     --dark-green:#2e3b3e;
     --gray:#50666b;
-    --light-pink: #fd6378;
-    --dark-pink:#fd6378;
     --white:#fafafa;
-/* --body-bg: #151515;
---contact-bg: */
+    --deep-green: #252F31;
+    --cream: #EEF2F2;
+/* - */
 }
 
-html {
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/*html {
     box-sizing: border-box;
-    /* padding doesnt add to width or height of elements*/
+     padding doesnt add to width or height of elements
     font-size: 100%;
-}
+    scroll-behavior: smooth;
+}/*
 
+
+/*
 *, *::before, *::after {
     box-sizing: inherit;
 }
+*/
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    color: black;
+    font-size: 18px;
+   /* line-height: 1.5px; */
+
 }
+
+p {
+    color: var(--dark-green);
+}
+
+/* Navigaiton Bar */
+
+nav {
+    background-color:var(--deep-green);
+    display: block;
+    align-items:center;
+    justify-content:space-around;
+   /* height: 7vh; */
+    position:fixed;
+    left: 0;
+    top: 0;
+    height:75px;
+    width: 100%;
+
+
+}
+.name-logo {
+    font-size: x-large;
+    font-weight: bolder;
+    font-style:italic;
+}
+
+nav, .links-nav  {
+    display:flex;
+}
+
+.links-nav {
+    /* list-style removes bullet points*/
+    list-style: none;
+    gap: 24px;  
+    float: right;
+
+}
+
+nav, a {
+    text-decoration: none;
+    color:white; 
+}
+
+li a:hover {
+    text-decoration:underline;
+    text-underline-offset: 1rem; 
+    color:#ACBCC0; 
+}
+
+li a {
+    padding: 14px 16px;
+}
+
+/* Sections */
