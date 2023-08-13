@@ -22,52 +22,53 @@ html {
 }
 
 
-/*
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
-*/
+
 
 body {
-    margin: 0;
+    margin: 0; 
     font-family: 'Montserrat', sans-serif;
     background-color: #fafafa;
     color: black;
     font-size: 18px;
-   /* line-height: 1.5px; */
+    /* line-height: 1.5px; */
 
 }
 
 p {
     color: var(--dark-green);
-}
+    }
 
 /* Navigaiton Bar */
 
 nav {
     background-color:var(--deep-green);
-    display: block;
-    align-items:center;
-    justify-content:space-between;
-   /* height: 7vh; */
+    justify-content: space-around;
     position:fixed;
-
     height: 55px;
     width: 100%;
-
-
 }
+
+
 .name-logo {
     font-size: x-large;
     font-weight: bolder;
     font-style:italic;
-    margin-left: 30%;
+    margin-left: 10%;
+    padding: 13px;
+    display:block
+
+    
    
 }
 
-nav, .links-nav  {
-    display:flex;
+nav, .links-nav {
+    display:flex; 
 }
+ 
 
 .links-nav {
     /* list-style removes bullet points*/
@@ -75,12 +76,14 @@ nav, .links-nav  {
     gap: 24px;  
     padding-left: 0%;
     padding-right: 0%;
+    
 }
 
 nav, a {
     text-decoration: none;
     color:white; 
 
+ 
 }
 
 li a:hover {
@@ -96,27 +99,89 @@ li a {
 /* Sections */
 
 section {
-        padding-top: 8vh;
+
         height: 96vh;
-        margin: 0 5rem;
-        box-sizing: border-box;
-        min-height: fit-content;
+        padding-top: 8vh;
     }
 
-/*#home {
-    padding-top: 4vh;
-    height: 96vh;
+/* Home Section */
+#home {
+    color: black;
+    background-image: linear-gradient( #fafafa,#EEF2F2,#CDD7D9,#ACBCC0);
+   
+
+}
+
+.home-text {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}*/
-/* w3 code to help center profile pic */
-#about-pic {
-border-radius:50%;
-display: block;
-margin-left: auto;
-margin-right: auto;
 }
 
+.home-text-3 {
+    display:block
+}
+
+/* About Section */
+
+#about {
+    background-image: linear-gradient(#Acbcc0, #cdd7d9, #eef2f2,#fafafa);
+    
+}
+
+.about-text{
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#about-pic { /* w3 code to help center profile pic */
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 15px;
+    }
+
+p.about-p1{
+    text-indent:30px;
+}
+/* Work Section */
+
+#Work{
+
+    background-image: linear-gradient( #fafafa,#EEF2F2,#CDD7D9,#ACBCC0);
+    
+}
+.work-text{
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* Resume Section */
+
+#Resume {
+    background-image: linear-gradient(#Acbcc0, #cdd7d9, #eef2f2,#fafafa);
+
+}
+
+.Resume-text{
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+/* Contact Section */
+
+#Contact{
+    background-image: linear-gradient( #fafafa,#EEF2F2,#CDD7D9,#ACBCC0);
+}
+
+.Contact-text{
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
 
 
