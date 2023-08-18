@@ -1,9 +1,8 @@
 @media screen and (max-width: 992px) { 
-    header { 
-    } 
-  } 
+
 
   @media screen and (max-width: 768px) { 
-    header, nav { 
-   Flex-direction: column } 
-  } 
+   .work-container {
+    flex-direction: column;
+    width: 20.875rem;
+   }}
