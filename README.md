@@ -53,4 +53,5 @@ Repositiory contains a quality README file with description, screenshot, and lin
 * https://bestfolios.medium.com/10-great-fonts-for-portfolio-design-2debfe2f1bb9
 * https://www.figma.com/community/plugin/740832935938649295/Color-Palettes
 * https://www.w3schools.com/css/css_navbar.asp
+* https://images.app.goo.gl/KsJaK8JM6Ve6EGs56
 

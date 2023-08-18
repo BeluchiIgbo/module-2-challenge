@@ -8,10 +8,11 @@
 /* - */
 }
 
-/* * {
+ * {
     margin: 0;
     padding: 0;
-} */
+    box-sizing:border-box;
+} 
 
 
 html {
@@ -24,7 +25,7 @@ html {
 
 
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 
@@ -44,57 +45,41 @@ p {
 
 /* Navigaiton Bar */
 
-nav {
-    background-color:var(--deep-green);
-    justify-content: space-around;
+header {
+    background-color:var(--deep-green); 
+    height:35px;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     position:fixed;
-    height: 55px;
-    width: 100%;
-}
-
-
-.name-logo {
-    font-size: x-large;
-    font-weight: bolder;
-    font-style:italic;
-    margin-left: 10%;
-    padding: 13px;
-    display:block
-
+    padding: 20px 13%;
     
-   
 }
 
-nav, .links-nav {
-    display:flex; 
+.links-nav,a {
+    font-size: 16px;
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    color:#fafafa;
 }
- 
 
 .links-nav {
-    /* list-style removes bullet points*/
-    list-style: none;
-    gap: 24px;  
-    padding-left: 0%;
-    padding-right: 0%;
-    
+    gap:24px;
 }
+li a:hover { 
+    text-decoration:underline; 
+    text-underline-offset: 0.5rem;  
+    color:#ACBCC0;  
+} 
 
-nav, a {
-    text-decoration: none;
-    color:white; 
+.name-logo { 
+    font-size: x-large; 
+    font-weight: bolder; 
+    font-style:italic; }
 
- 
-}
 
-li a:hover {
-    text-decoration:underline;
-    text-underline-offset: 1rem; 
-    color:#ACBCC0; 
-}
-
-li a {
-    padding: 14px 16px;
-}
 
 /* Sections */
 
@@ -109,6 +94,7 @@ section {
     color: black;
     background-image: linear-gradient( #fafafa,#EEF2F2,#CDD7D9,#ACBCC0);
    
+
 
 }
 
@@ -159,6 +145,23 @@ p.about-p1{
     box-sizing: border-box;
     min-height: fit-content;
 }
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .work-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .work-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 /* Resume Section */
 
