@@ -38,6 +38,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Assets
 
 The following image demonstrates the web application's appearance and functionality:
+![](assets/images/screenshot-portfolio.png) 
 
 ## Review
 
