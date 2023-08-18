@@ -8,7 +8,9 @@ Build a portfolio that showcases my skills and talents:
 
 * Application's links all function correctly to my GitHub profile, Linkedin page, and Resume. 
 
-* Portoflio has a responsive layout with sections and deployed applications. 
+* Portoflio has a responsive layout with sections and deployed applications.
+  
+* https://beluchiigbo.github.io/portfolio/
 
 ## User Story
 
